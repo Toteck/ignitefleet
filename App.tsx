@@ -8,7 +8,7 @@ import { Signin } from "./src/screens/Signin";
 import "./src/styles/global.css";
 
 import { Loading } from "./src/components/loading";
-import { StatusBar } from "react-native";
+import { StatusBar, View } from "react-native";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
